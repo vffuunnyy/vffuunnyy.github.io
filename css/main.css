@@ -471,6 +471,10 @@ a {
     grid-column-gap: 20px;
   }
 
+  .footer_logo > a {
+    margin: 0 auto;
+  }
+
   .footer_logo > p{
     justify-self: end;
     text-align: right;
@@ -504,6 +508,18 @@ a {
 
   .contact_us {
     justify-self: center;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  h1 {
+    font-size: 1em;
+    line-height: 1em;
   }
 }
 
