@@ -366,7 +366,7 @@ a {
   justify-self: end;
 }
 
-.contact_us > a > * {
+.contact_us > * {
   display: inline-block;
   vertical-align: middle;
 }
