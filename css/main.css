@@ -11,12 +11,6 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-@font-face {
-  font-family: Oswald; /* Имя шрифта */
-  src: url(../fonts/Oswald-Bold.ttf);
-  src: url(../fonts/Oswald-Regular.ttf);
-}
-
 html {
   color: #222;
   font-size: 1em;
