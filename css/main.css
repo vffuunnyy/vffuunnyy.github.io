@@ -238,10 +238,6 @@ a {
 }
 
 .lipovka {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   text-align: center;
   height: 100%;
 }
@@ -251,11 +247,11 @@ a {
   width: 100px;
   height: 100px;
   object-fit: cover;
+  margin: 0 auto 10px auto;
 }
 
 .lipovka__small__block > .lipovka > h3 {
   font-size: 18px;
-  max-width: 130px;
 }
 
 .lipovka__small__block > .lipovka > p {
@@ -269,6 +265,7 @@ a {
   width: 200px;
   height: 200px;
   object-fit: cover;
+  margin: 0 auto 15px auto;
 }
 
 .lipovka__block > .lipovka > h3 {
@@ -312,15 +309,11 @@ a {
 }
 
 .lipovka .social {
-  margin: 10px;
-  width: 160px;
+  margin: 10px auto 0 auto;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.block__nav {
-
 }
 
 .block__title {
@@ -511,35 +504,6 @@ a {
 
   .contact_us {
     justify-self: center;
-  }
-}
-
-@media only screen and (max-width: 780px) {
-  .social_icon > a {
-    height: 32px;
-    width: 32px;
-    margin-right: 7px;
-  }
-
-  .footer_block > a {
-    padding: 10px 40px;
-    font-size: 14px;
-  }
-
-  .tech {
-    height: 280px;
-  }
-
-  .footer_bottom {
-    font-size: 13px;
-  }
-
-  .footer_bottom a {
-    font-size: 13px;
-  }
-
-  .footer_bottom {
-    grid-template-columns: 7fr 4fr;
   }
 }
 
